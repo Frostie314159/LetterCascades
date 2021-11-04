@@ -1,7 +1,6 @@
-#include "Question.hpp"
+#include "Node.hpp"
 
 int main(){
-    Question m_question = {"Wie gehts?", {"Gut", "Schlecht", "Naja"}};
-    m_question.ask();
+    Node begin = {"begin","test",{"wie gehts?", {"Gut", "Schlecht"}}};
     return 0;
 }
